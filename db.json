@@ -1,12 +1,7 @@
 {
-    "accounts": "Tink",
     "accounts-default": [
         "Tink",
         "GPB"
-    ],
-    "categories": [
-        "Еда",
-        "Транспорт"
     ],
     "categories-income": [
         "Зарплата",
@@ -17,13 +12,11 @@
         "Еда",
         "Транспорт"
     ],
-    "categories-loss-default": "Транспорт",
     "currencies": [
         "Рубль",
         "Dollar",
         "EUR"
     ],
-    "defaultCurrency": "Рубль",
     "operations": [
         {
             "id": 1734473634959,
@@ -34,6 +27,5 @@
             "operationType": "loss",
             "date": "2024-12-17T22:13:54.959Z"
         }
-    ],
-    "profileFeatureEnabled": true
+    ]
 }
