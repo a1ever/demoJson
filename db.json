@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "accounts": "Tink",
+        "accounts-default": ["Tink", "GPB"],
+        "categories": ["Еда", "Транспорт"],
+        "categories-income": ["Зарплата", "Крипта", "Накопительный"],
+        "categories-loss": ["Еда", "Транспорт"],
+        "categories-loss-default": "Транспорт",
+        "currencies": ["Рубль", "Dollar", "EUR"],
+        "defaultCurrency": "Рубль",
+        "operations": [
+            {
+                "id": 1734473634959,
+                "amount": 7777,
+                "category": "Транспорт",
+                "account": "Tink",
+                "currency": "Рубль",
+                "operationType": "loss",
+                "date": "2024-12-17T22:13:54.959Z",
+            },
+        ],
+        "profileFeatureEnabled": true,
 }
